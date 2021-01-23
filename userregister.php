@@ -93,9 +93,9 @@ include('header.php');
 <div class="register-login-section spad">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 offset-lg-3">
+            <div class="col-lg-6 offset-lg-3" style="background-color: white">
                 <div class="register-form">
-                    <h2>Register</h2>
+                    <h2>User Register</h2>
                     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                        
                         <div class=" <?php echo (!empty($pref_err)) ? 'has-error' : ''; ?>" style

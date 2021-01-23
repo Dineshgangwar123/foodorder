@@ -119,6 +119,7 @@ else
 {
 
 ?>
+<body style="background-image: url('img/b2.jpg');"> 
 <header class="header-section">
        
         <div class="nav-item">

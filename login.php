@@ -79,10 +79,10 @@ include('header.php');
 ?>
 <div class="register-login-section spad">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-6 offset-lg-3">
-                <div class="login-form">
-                    <h2>Login</h2>
+        <div class="row" >
+            <div class="col-lg-6 offset-lg-3" style="background-color: white">
+                <div class="login-form" >
+                    <h2>User Login</h2>
                     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                         <div class="group-input <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
                             <label>Username</label>

@@ -58,9 +58,9 @@ include('header.php');
                 <div class="col-lg-12">
                     <div class="cart-table">
                       <h3 align="center" style="color: green">Your Order Details</h3>
-                        <table border="2px">
-                            <thead>
-                                <tr style="background-color: #F1C40F ">
+                        <table border="2px" style="background-color: white">
+                            <thead style="background-color: gray">
+                                <tr >
                                     <th >Order ID</th>
                                     <th >Image</th>
                                     <th >Food Item</th>
@@ -81,8 +81,8 @@ include('header.php');
     { ?>  
   
   <tr>
-    <td style="background-color:  #EBF5FB"><?php echo $row['id'];?></td>
-    <td style="background-color:  #D6EAF8">
+    <td ><?php echo $row['id'];?></td>
+    <td >
       <?php 
      $pcode=$row['food_id'];
      // echo "pcode={$pcode}";
@@ -96,12 +96,12 @@ include('header.php');
                                 
 
     </td>
-    <td style="background-color:  #AED6F1"><?php echo $row['food_name'];?></td>
-    <td style="background-color:  #85C1E9"><?php echo $row['amount_paid'];?></td>
-    <td style="background-color: #5DADE2"><?php  echo " ".$row['name']." ". $row['phone']." <br>". $row['address']."  ";?>   
+    <td ><?php echo $row['food_name'];?></td>
+    <td ><?php echo $row['amount_paid'];?></td>
+    <td ><?php  echo " ".$row['name']." ". $row['phone']." <br>". $row['address']."  ";?>   
     </td>
-    <td style="background-color:  #3498DB"><?php echo $row['pmode'];?></td>
-    <td style="background-color: #3498DB"><?php $newdate= date_create( $row['added_at']);
+    <td ><?php echo $row['pmode'];?></td>
+    <td ><?php $newdate= date_create( $row['added_at']);
     echo date_format($newdate,'y-m-d'); 
     ?> 
     </td>

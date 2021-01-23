@@ -118,7 +118,7 @@ include('header.php');
     <div class="register-login-section spad">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 offset-lg-3">
+                <div class="col-lg-6 offset-lg-3" style="background-color: white">
                     <div class="register-form">
                         <h2>Restaurants Register</h2>
             
@@ -150,7 +150,7 @@ include('header.php');
                 <input type="submit" class="site-btn register-btn" value="Submit">
                 <input type="reset" class="btn btn-default" value="Reset">
             </div>
-            <p>Already have an account? <a href="login.php">Login here</a>.</p>
+            <p>Already have an account? <a href="rest_login.php">Login here</a>.</p>
           </form>
 
 
