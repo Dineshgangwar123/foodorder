@@ -63,7 +63,8 @@ include('header.php');
             </div>
             <div class="card-footer p-1">
                 <form action=""  class="form-submit">
-                    <input type="hidden" class="pid" value="<? =$row['id'] ?>">
+                    
+                    <input type="hidden" class="pid" value="<?php echo($row['id']); ?>">
                     <input type="hidden" class="rname" value="<?php echo($row['restaurants_name']); ?>">
 
                     <input type="hidden" class="fname" value="<?php echo($row['food_name']); ?>">
