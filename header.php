@@ -75,6 +75,13 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
 
     <!-- Header Section Begin -->
     <header class="header-section">
+        <div class="header-top">
+            
+            <div  class=" col-xs-4 col-sm-12 col-lg-12 ">
+                <h2 style="color: white" >Foods </h2>
+            </div>
+        </div>
+        
        
         <div class="nav-item">
             <div class="container">
@@ -121,11 +128,18 @@ else
 ?>
 <body style="background-image: url('img/b2.jpg');"> 
 <header class="header-section">
+    <div class="header-top">
+            
+            <div  class="col-xs-4 col-sm-12 col-lg-12  ">
+                <h2 style="color: white"  >Foods</h2>
+            </div>
+        </div>
+        
        
         <div class="nav-item">
             <div class="container">
               
-                <nav class="nav-menu mobile-menu" >
+                <nav class="nav-menu mobile-menu col-sm-6 col-md-4 col-lg-12 mb-2" >
                     <ul> 
                         <li><a href="./index.php">Home</a></li>
                         <li><a href="./menu.php">Menu</a></li>
