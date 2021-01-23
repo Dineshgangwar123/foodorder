@@ -4,6 +4,7 @@
 
 session_start();
 include('config.php');
+include('adminheader.php');
 
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
 
@@ -82,7 +83,7 @@ include('config.php');
                                   $result2=mysqli_query($link,$qry2);
                                   if ($result2) 
                                   {
-                                    echo "insted";
+                                    echo "Your Food Added to Your Menu";
                                   }        
                        }
         }
@@ -91,7 +92,7 @@ include('config.php');
             echo " error ";
         }
     }
-    include('adminheader.php');
+    // include('adminheader.php');
 ?> 
 <section class="product-shop spad page-details">
   <div class="container">
