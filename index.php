@@ -26,16 +26,16 @@ include('header.php');
 
     <div class="carousel-item active">
       <img src="img/banner1.jpg" alt="Los Angeles" width="1100" height="500">
-      <a href="menu.php" style="position: absolute;top: 50%; left: 50%; transform: translate(-50%, -50%);display: inline-block;font-size: 16px;padding: 1px 1px 1px 1px;color: #ffffff;background: #e7ab3c;text-transform: uppercase;"> SHOP NOW</a>
+      <a href="menu.php" style="position: absolute;top: 50%; left: 50%; transform: translate(-50%, -50%);display: inline-block;font-size: 16px;padding: 1px 1px 1px 1px;color: #ffffff;background: #e7ab3c;text-transform: uppercase;"> ORDER NOW</a>
      
     </div>
     <div class="carousel-item ">
       <img src="img/banner2.jpg" alt="Los Angeles" width="1100" height="500">
-       <a href="menu.php" style="position: absolute;top: 50%; left: 50%; transform: translate(-50%, -50%);display: inline-block;font-size: 16px;padding: 1px 1px 1px 1px;color: #ffffff;background: #e7ab3c;text-transform: uppercase;"> SHOP NOW</a>
+       <a href="menu.php" style="position: absolute;top: 50%; left: 50%; transform: translate(-50%, -50%);display: inline-block;font-size: 16px;padding: 1px 1px 1px 1px;color: #ffffff;background: #e7ab3c;text-transform: uppercase;"> ORDER NOW</a>
      </div>
      <div class="carousel-item ">
       <img src="img/banner3.jpg" alt="Los Angeles" width="1100" height="500">
-       <a href="menu.php" style="position: absolute;top: 50%; left: 50%; transform: translate(-50%, -50%);display: inline-block;font-size: 16px;padding: 1px 1px 1px 1px;color: #ffffff;background: #e7ab3c;text-transform: uppercase;"> SHOP NOW</a>
+       <a href="menu.php" style="position: absolute;top: 50%; left: 50%; transform: translate(-50%, -50%);display: inline-block;font-size: 16px;padding: 1px 1px 1px 1px;color: #ffffff;background: #e7ab3c;text-transform: uppercase;"> ORDER NOW</a>
      </div>
    
   </div>
