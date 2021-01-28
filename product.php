@@ -38,7 +38,7 @@ include('header.php');
                             </div>
                         <?php } ?>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6" style="background-color: white">
                             <?php
                              $result = mysqli_query($link,"SELECT * FROM `menuitem` where id='$pid' ");
                              while($row = mysqli_fetch_assoc($result))
