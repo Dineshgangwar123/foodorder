@@ -38,12 +38,12 @@ include('header.php');
                             </div>
                         <?php } ?>
                         </div>
-                        <div class="col-lg-6" style="background-color: white">
+                        <div class="col-lg-6" >
                             <?php
                              $result = mysqli_query($link,"SELECT * FROM `menuitem` where id='$pid' ");
                              while($row = mysqli_fetch_assoc($result))
                                 { ?>
-                                    <div class="product-details">
+                                    <div class="product-details" style="background-color: white">
                                         <div class="pd-title">
                                             <h3 style="font-size:20px "><?php echo $row['food_name']; ?></h3>
                                         </div>
